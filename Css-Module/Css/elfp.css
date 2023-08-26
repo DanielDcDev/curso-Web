@@ -1,0 +1,24 @@
+body{
+    background: rgb(213, 208, 208);
+}
+#principal{
+    width: 920px;
+    height: auto;
+    border: 1px solid blue;
+}
+.noticia{
+    background: #f8f8f6;
+    padding: 5px;
+    width: 280px;
+    margin: 7px;
+    float: left;
+}
+.imagemGaleria{
+    background: rgb(225, 221, 221);
+    width: 265px;
+    padding: 5px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
