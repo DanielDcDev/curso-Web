@@ -1,0 +1,70 @@
+/* clean page*/
+:root{
+    --background:#373636;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(75, 74, 73);
+}
+/*layout*/
+#header-area{
+    background-color: var(--background);
+    padding: 15px;
+    text-align: center;
+}
+#logo-area, #menu-area{
+    padding: 10px;
+}
+#principal-area{
+    width: 920px;
+    margin: 0 auto;
+}
+#post-area, #side-area{
+   background-color: var(--background);
+}
+#post-area{
+    width: 660px;
+    float: left;
+
+}
+#side-area{
+    width: 240px;
+    float: right;
+}
+#rodape{
+    clear:both;
+    background-color: #052f48;
+    text-align: center;
+    padding: 10px;
+}
+#post-area{
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #373636;
+}
+/*cores*/
+h1{
+    color: #15AAFF;
+}
+#branco{
+    color:rgb(164, 145, 120);
+}
+/*formatar link*/
+a{
+    text-decoration: none;
+}
+a:link, a:visited {
+    color:#f8f7f3;
+    padding: 8px 12px;  
+}
+a:hover{
+    color: rgb(12, 2, 36);
+    background: #fff;
+}
