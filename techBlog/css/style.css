@@ -33,17 +33,27 @@ body{
     width: 920px;
     margin: 0 auto;
 }
-#post-area, #side-area{
-   background-color: var(--background);
-}
-#post-area{
-    width: 660px;
-    float: left;
-
-}
-#side-area{
+.side-area, .categories{
     width: 240px;
     float: right;
+    background-color: var(--background);
+    margin-top: 15px;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+    border-bottom: 2px dotted var(--darkblue);
+}
+.categories{
+    float: right;
+}
+.side-area a:hover{
+    padding: 2px;
+    background-color: var(--white);
+}
+h3{
+    background-color: var(--darkblue);
+    text-decoration: underline;
+    margin-bottom: 5px;
+    padding: 5px;
 }
 #rodape{
     clear:both;
@@ -51,11 +61,13 @@ body{
     text-align: center;
     padding: 10px;
 }
-#post-area{
-    padding: 8px;
+.post{
+    width: 600px;
+    float: left!important;
+    margin-bottom: 15px;
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: var(gray);
+    background-color: var(--background);
 }
 /*cores*/
 h1{
@@ -96,4 +108,7 @@ a:hover{
 }
 img{
     width: 500px;
+}
+.post-side{
+    
 }
