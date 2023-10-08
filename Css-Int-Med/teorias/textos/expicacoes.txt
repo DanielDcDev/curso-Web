@@ -1,0 +1,3 @@
+existem dois tipos de layout 
+fixo = nao se mexe
+liquido = muito parecido com a responsividade

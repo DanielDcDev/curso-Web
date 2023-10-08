@@ -1,0 +1,26 @@
+/* Heranca e especificidade*/
+body{
+    color: red;
+    font-size: 20px;
+    background: black;
+}
+p{
+    color: rgb(127, 144, 255);
+}
+/*Se um seletor for mais especifico que outro a regra mais 
+especifica sera aplicada(tera precedencia sobre regras mais gerais)*/
+
+*{/*1*/
+    color: rgb(163, 178, 192);
+}
+h2{/*2*/
+    color: beige;
+}
+h2.verde{/*4*/
+    color: green;
+}
+h2#amarelo{/*5*/
+    color: yellow;
+}
+/*Em niveis de especificidade, o 5 e mais importante que o primeiro
+pois e mais especifico*/
