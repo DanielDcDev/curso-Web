@@ -1,0 +1,33 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+fieldset{
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: aliceblue;
+    margin: 1em 0 ;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    display:block;
+    cursor: pointer;
+}
+input{
+    width: 20em;
+}
+input[type="radio"]{
+    width: 2em;
+}
+/*
+input.radio, unput.checkbox, input.submit{
+    width: auto;
+}*/
+textarea{
+    width: 40%;
+    height: 10em;
+}
+.radio{
+    margin-right: 1em;
+}
