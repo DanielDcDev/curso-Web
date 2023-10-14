@@ -1,0 +1,46 @@
+/*Variaveis*/
+:root{
+    --branco: #fff;
+    --fundoOpaco: #ede9cc;
+    --fundoTopo: #dbcd87;
+}
+/*Variaveis*/
+
+    /*Estrutura geral*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: var(--branco) url(../img/bg.png);
+        margin: 15px;
+    }
+    /*Estrutura geral*/
+
+        /*Estilizacao container*/
+        #container{
+            background: var(--fundoOpaco)
+        }
+        #topo{
+            background: var(--fundoTopo);
+            height: 15.4em;
+            min-height: 250px;
+            position: relative;
+        }
+        #area-logo{
+            position: absolute;
+            background: url(../img/topo-imagem-principal.png);
+            width: 100%;
+            height: 250px;
+            top: 0;
+            left: 0;
+        }#area-menu{
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: url(../img/topo-imagem-lateral.png);
+            width: 450px;
+            height: 250px;
+        }
+        /*Estilizacao container*/
