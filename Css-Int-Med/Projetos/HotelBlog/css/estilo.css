@@ -11,6 +11,9 @@
     --linkHover:       #fbf6be;
     --moreBlack:       #333;
     --fontH2:          #7b7640;
+    --fontH3:          #615b2b;
+    --bordaBottom:     #f3efcb;
+
 }
 /*Variaveis*/
 
@@ -79,7 +82,7 @@
             padding-top: 5px;
             padding-bottom: 5px;
             color: var(--linhas);
-            line-height: 2.1em;
+            line-height: 0.9em;
         }
         #menu-locais .locais{
             float: left;
@@ -111,7 +114,7 @@
         font-size: 0.8em;
         padding: 5px;
         color: var(--linkColor);
-        line-height: 30px;
+        line-height: 0px;
     }
     ul#navegacao a:hover{
         background: var(--linkHover);
@@ -137,7 +140,7 @@
     float: right;
     width: 50%;
     height: auto;
-    background: url(../img/bg-area-lateral.png)top left repeat-x;
+    background: url(../img/bg-area-lateral.png)top right repeat-x;
     padding: 20px 0;
     display: block;
 }
@@ -149,10 +152,6 @@
     width: 150px;
     float: left;
     display: block;
-}
-.post p,
-.post h2{
-paddingle: ;
 }
 /*Area de Conteudos*/
 /*formatacoes de texto*/
@@ -167,6 +166,34 @@ p{
 }
 /*formatacoes de texto*/
 
+/*formatacao area lateral*/
+#beneficios li{
+    padding: 8px;
+    border-bottom: 1px solid var(--bordaBottom);
+    height: 6em;
+}
+#beneficios li a img{
+    float: left;
+    margin-right: 8px;
+}
+#beneficios li a{
+    font-size: 0.8em;
+}
+#beneficios li a{
+    color: #000;
+    font-size: 0.8em;
+}
+#beneficios li:hover{
+    background: var(--fundoOpaco);
+    cursor: pointer;
+}
+#beneficios li a h3{
+    font-size: 1.5em;
+    color: var(--fontH3);
+    padding: 5px 0;
+    background-color: url(../img/ornamento.png)no-repeat center rigth;
+}
+/*formatacao area lateral*/
 /*rodape*/
 #rodape{
     clear: both;
