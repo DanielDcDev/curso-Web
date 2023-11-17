@@ -79,3 +79,6 @@ function CadastrarDispesa(){
 		$('#modalRegistraDespesa').modal('show') 
 	}
 }
+function carregaListaDespesas(){
+    
+}
