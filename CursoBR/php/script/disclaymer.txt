@@ -1,1 +1,5 @@
-os codigos nao estao funcionando nesta pasta eles sao meramente ilustrativos por enquanto.
+Tip 1 - Os codigos nao estao funcionando nesta pasta eles sao meramente ilustrativos por enquanto.
+
+Tip 2 - Para iniciar o servidor e necessario entrar na pasta destino, exemplo script
+e digitar no terminal pgp -s localhost:8000
+e abrir o mesmo site no navegador, apos fazer isso é necessario entrar no arquivo em especifico.
