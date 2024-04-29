@@ -7,3 +7,6 @@ e abrir o mesmo site no navegador, apos fazer isso é necessario entrar no arqui
 
 >
 }
+
+metodo get recebe os dados mostrando o valor no link
+metodo post recebe os dados e nao mostra os valores no link
