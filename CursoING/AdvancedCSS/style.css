@@ -1,0 +1,15 @@
+.main{
+    display: flexbox;
+}
+img{
+    width: 250px;
+}
+.left card{
+    float: left;
+}
+.rigth .card{
+    float: right;
+}
+p{
+    display: flex;
+}
